@@ -1,7 +1,6 @@
 function getFormvalue() {
     //Write your code here
-	let firstName=document.querySelector("#firstName")
-	let lastName=document.querySelector("#lastName")
-	console.log(firstName.value+" "+lastName.value)
-
+	let first=document.getElementById("firstName")
+	let last=document.getElementById("lastName")
+    alert(`${first.value} ${last.value}`)
 }
